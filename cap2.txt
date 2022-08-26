@@ -1,0 +1,87 @@
+#Programa 1
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int resultado;
+		Console.WriteLine("Bienvenido usuario, ingrese un número.");
+		int numero = int.Parse(Console.ReadLine());
+		resultado=numero*2*25;
+		Console.WriteLine("El resultado es: "+ resultado);
+	}
+}
+
+#Programa 2
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int producto;
+		int suma;
+		int promedio;
+		Console.WriteLine("Bienvenido usuario, ingrese cuatro números.");
+		int num1 = int.Parse(Console.ReadLine());
+		int num2 = int.Parse(Console.ReadLine());
+		int num3 = int.Parse(Console.ReadLine());
+		int num4 = int.Parse(Console.ReadLine());
+		producto = num1*num2*num3*num4;
+		suma= num1+num2+num3+num4;
+		promedio= suma/4;
+		Console.WriteLine("El producto o multiplicación de todos los números es: "+ producto);
+		Console.WriteLine("La suma de todos los número es: "+ suma);
+		Console.WriteLine("El promedio es: " + promedio);
+	}
+}
+
+#Programa 3
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double numero;
+		numero= Math.Pow(821,2);
+		Console.WriteLine(numero);
+	}
+}
+
+#Programa 4
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int numeroz = 0;
+		for (int i = 1; i < 11; i++) { 
+              numeroz = i * (i + 1) / 2;
+		}
+		Console.WriteLine("La suma de los numeros del 1 al 10 es: " + numeroz);
+	}
+}
+
+#Programa 5
+
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		double numeroz;
+		for (int i = 0; i < 11; i++) { 
+			numeroz=Math.Pow(2,i);
+			Console.WriteLine(numeroz);
+		}
+		
+	}
+}
